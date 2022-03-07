@@ -1,1 +1,1 @@
-My CV deploy://dilbarakkaya.github.io/cv_new/
+My CV deploy link  https://dilbarakkaya.github.io/cv_new/
