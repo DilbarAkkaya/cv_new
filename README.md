@@ -1,7 +1,1 @@
-
-https://DilbarAkkaya.github.io/rsschool-cv/cv
-=======
-https://DilbarAkkaya.github.io/rsschool-cv/cv
-https://DilbarAkkaya.github.io/rsschool-cv/cv
-
-
+My CV deploy link  https://dilbarakkaya.github.io/cv_new/
