@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <title>Dilbar Akkaya</title>
+    <link rel= "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/shades-of-purple.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body class="forbody">
+    <main class="main">
+    <aside class="sidebar">
+        <figure class= "foto">
+            <img class="img" src = "pic/foto.jpeg" alt = "myfoto">
+            <figcaption class="infofoto">Origin photo</figcaption>
+        </figure>
+        <div id = "Contacts" class= "contacts">
+            <hr class="line-sidebar">
+            <h3>Contacts</h3>
+              <ul class = "icon">
+                <li><a href = "https://github.com/DilbarAkkaya">
+                <img class="image" src = "pic/gh.gif" width = "50" alt = "GH"></a><span>DilbarAkkaya</span></li>
+                <li><a href = "https://discord.com/channels/516715744646660106/846687560944189460">
+                <img class="image" src = "pic/icons8-discord-48.png" width = "50" alt = "DS"></a><span>@DilbarAkkaya#8250</span></li>
+                <li><a href = "mailto:dilbarmutavalova@gmail.com">
+                <img class="image" src = "pic/gm.jpg" width = "45" height="40" alt = "GMail"></a><span>dilbarmutavalova@gmail.com</span></li>
+                <li><a href = "https://web.telegram.org/z/">
+                <img class="image" src = "pic/telegram-64x64.png" width = "50" alt = "Tg"></a><span>dilbar_ya</span></li>
+            </ul>
+        </div>
+    </aside>
+    <div class="wrapper">
+      <header>
+                <nav class="navbar">
+                 <ul class="nav-list">
+                 <li class="nav-item"><a href = "#Education" class="nav-link">Education</a></li>
+                 <li class="nav-item"><a href = "#Courses" class="nav-link">Courses</a></li>
+                 <li class="nav-item"><a href = "#Personalskills" class="nav-link">Personal skills</a></li>
+                 <li class="nav-item"><a href = "#Experience" class="nav-link">Experience</a></li>
+                 <li class="nav-item"><a href = "#Language" class="nav-link">Language</a></li>
+                 <li class="nav-item"><a href = "#Self-introduction" class="nav-link">Self-introduction</a></li>
+                 <li class="nav-item"><a href = "#Contacts" class="nav-link">Contacts</a></li>
+             </ul>
+                  <div class="hamburger-menu">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+            </div>
+      </nav>
+ 
+    </header>
+    <section>
+        <h1>CV</h1>
+        <article id = "fio">
+            <div class = "fio">
+                <h5>Dilbar Akkaya</h5>
+                <h2>Frontend developer</h2>
+            </div>
+        </article>
+        <article id = "Education">
+            <div>
+                <hr class="line-section">
+                <h3>Education</h3>
+                <p>Kama State Academy of Engineering and Economics (1999-2004)</p>
+            </div>
+        </article>
+        <article id = "Courses">
+            <div>
+                <hr class="line-section">
+                <h3>Courses</h3>
+                    <ol>
+                        <li class="item">JavaScript/Front-end, Rolling Scopes School (2021 - to this day) International School</li>
+                        <li class="item">Common health safety unit, occupational health and safety training (2018) Turkey</li>
+                        <li class="item">Public education center, english language (2017) Turkey</li>
+                        <li class="item">Lingva Progress Kazan, english language (2013) Russia</li>
+                        <li class="item">«Alttelecom» LTD, sales training (2006) Russia</li>
+                        <li class="item">Home Credit and Russian standard banks, credit advisor (2006) Russia</li>
+                        <li class="item">Consultant Plus, system training (2004) Russia</li>
+                        <li class="item">Kama State Academy of Engineering and Economics, database design and creation using Access DBMS (2002) Russia</li>
+                    </ol>
+            </div>
+        </article>
+        <article id = "Experience">
+            <div>
+                <hr class="line-section">
+                <h3>Experience</h3>
+                <span>I do not have experience in frontend development, but everything ahead. This is my second try to get knowledge in the field of frontend development.
+I learn HTML, CSS, JS, Git, Typescript. I tried to do tasks Wildlife, Virtual piano, Online Zoo, Photo Filter, Clean Code, Match-match game.</span>
+<h4>Code example</h4>
+<pre><code class="javascript">
+    document.querySelector(".fullscreen").addEventListener('click', makeFullScreen);
+      function makeFullScreen() {
+        if (document.fullscreenElement === null) {
+          document.documentElement.requestFullscreen();
+           } else {
+        if (document.fullscreenEnabled){
+        document.exitFullscreen();
+        }
+      }
+    }</code></pre>
+            </div>
+            <div>
+                <hr class="line-section">
+                <h4>Projects (tasks from RSSchool)</h4>
+                <ul>
+                    <li class="item">Christmas-task<a href="https://dilbarakkaya.github.io/RSSchool-projects/christmas--task/"><img class="img" src="pic/christmas.png" alt="1"></a><p>it was necessary to create an application that will allow sorting toys by name and number of copies, 
+                    finding a toy by name, grouping toys by type, adding toys to favorites and removing them from it, as well as with an interactive page where we can decorate the Christmas tree with the selected toys. 
+                    Usage technologies and key skills: Typescript, Webpack, Modules in Javascript, Data Sorting, Data Filtering, Search Implementation, 'Drag and Drog' Implementation</p></li>
+                    <li class="item">Museum<a href="https://dilbarakkaya.github.io/RSSchool-projects/museum-dom/"><img class="img" src="pic/museum.png" alt="1"></a><p>It was necessary to make a website according to the Figma layout. 
+                    To adapt the previously designed Louvre website for tablets and mobile devices, at resolutions of 1024px, 768px and 420px, the layout must match the layout. At other resolutions up to 320px, to make sure there is no horizontal scroll bar. 
+                    To add functionality implemented through JavaScript. Usage technologies and key skills: HTML, CSS, Figma, connecting and using js libraries, creating an infinite slider / swiper or adding it using the library
+                    creating a custom HTML5 video player
+                    creating an image comparison slider
+                    scroll animation (images in the Gallery section)
+                    adding a product sales calculator to the site (ticket sales calculator in the Tickets section and in the ticket sales form)
+                    form validation
+                    adding an interactive map to the site, connected using the mapbox js-library, its customization: adding markers, changing the style
+                    easy to maintain readable quality code using modern js features</p></li>
+                    <li class="item">Momentum<a href="https://dilbarakkaya.github.io/RSSchool-projects/momentum/"><img class="img" src="pic/momentum.png" alt="1"></a><p>It was necessary to make a page. Usage technologies: HTML, CSS, Figma</p></li>
+                    <li class="item">Wildlife<a href="https://goofy-bhaskara-aa278c.netlify.app/"><img class="img" src="pic/WL.png" alt="1"></a><p>It was necessary to make a page. Usage technologies: HTML, CSS, Figma</p></li>
+                    <li class="item">Presentaion<a href="https://suspicious-goodall-b182c7.netlify.app/"><img class="img" src="pic/pr.png" alt="2"></a><p>It was necessary to prepare a presentation on a given topic, suggested or approved by mentor. 
+                        Usage Technologies: HTML Presentation Framework Reveal, OBS</p></li>
+                        <li class="item">Virtual piano<a href="https://determined-agnesi-5ba2c0.netlify.app/"><img class="img" src="pic/vp.png" alt="3"></a><p>This task is to implement the virtual piano. Usage technologies: Vanilla JavaScript, DOM</p></li>
+                    <li class="item">Match match game<a href="https://dilbarakkaya-jsfe2021q1.netlify.app/"><img class="img" src="pic/mm.png" alt="4"></a><p>This task is to implement the match-match game. The game is often used to train memory. Usage technologies: Webpack, Typescript</p></li>
+                   
+                </ul>
+            </div>
+        </article>
+        <article id = "Language">
+            <div>
+                <hr class="line-section">
+                <h3>Language</h3>
+                <ul>
+                    <li class="item">Turkish B2</li>
+                    <li class="item">English A2</li>
+                    <li class="item">Deutsch A1</li>
+                </ul>
+            </div>
+        </article>
+        <article id = "Personalskills">
+            <div>
+                <hr class="line-section">
+                <h3>Personal skills</h3>
+                <ul>
+                    <li class="item">Analytical mind</li>
+                    <li class="item">Work with large amounts of information</li>
+                    <li class="item">To focus on results</li>
+                    <li class="item">To communicate quickly with strangers</li>
+                    <li class="item">Responsible</li>
+                    <li class="item">Easily trained</li>
+                </ul>
+            </div>
+        </article>
+        <article id="Self-introduction">
+          <div>
+            <hr class="line-section">
+            <h3>Self-introduction</h3>
+            <div class="wrapper-video">
+            <iframe width="460" height="360" src="https://www.youtube.com/embed/2USAb8fIyfs" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>  
+        </div>
+        </article>
+    </section>
+            <footer class="contacts">
+                    <div class="wrapper-footer">
+                        <a href = "https://rs.school/js/">
+                            <img src = "https://rs.school/images/rs_school_js.svg" width = "90" alt = "RSSchool wait"></a>
+                    
+                    <p> © 2021 </p>
+                </div>
+            </footer>
+    </div>
+    </main>
+    <script src="script.js"></script>
+    </body>
+    </html>
